@@ -227,4 +227,3 @@ Found another issue with SVGs we should note? Please open [an issue]({{< param r
 {{< /md >}}
   </div>
 </div>
-

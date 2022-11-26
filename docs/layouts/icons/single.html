@@ -14,15 +14,15 @@
       <ul class="list-unstyled mb-3 mb-md-0">
         <li>
           <strong>Category:</strong>
-          {{ range .Params.categories }}
-            <a href="/categories/{{ . | urlize}}">{{ . }}</a>
-          {{ end }}
+          {{ range .Params.categories -}}
+            <a href="/categories/{{ . | urlize }}/">{{ . }}</a>
+          {{ end -}}
         </li>
         <li>
           <strong>Tags:</strong>
-          {{ range .Params.tags }}
-            <a href="/tags/{{ . | urlize}}">{{ . }}</a>
-          {{ end }}
+          {{ range .Params.tags -}}
+            <a href="/tags/{{ . | urlize }}/">{{ . }}</a>
+          {{ end -}}
         </li>
       </ul>
       {{- end }}
